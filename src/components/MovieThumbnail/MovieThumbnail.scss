@@ -17,15 +17,38 @@
   }
 
   .display {
-    height: 75%;
-    background-color: rgba(0, 0, 0, 0.8);;
+    height: 70%;
+    background-color: rgb(92, 99, 110);
+    position: relative;
+
+    .time {
+      width: 50px;
+      height: 30px;
+      background-color: rgb(67, 70, 77);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-top-right-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
   }
 
   .name {
-    height: 15%;
+    height: 20%;
+    font-weight: bold;
   }
 
   .number {
     height: 10%;
+    color: lightgray;
+
+    img {
+      width: 7px;
+      height: 13px;
+      margin-right: 10px;
+    }
   }
 }
