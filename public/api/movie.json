@@ -1,0 +1,32 @@
+{
+  "name": "Lord of the Rings: The Fellowship of the Ring (official trailer)",
+  "description": "The lord of the Ring is an epic high-fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
+  "playedNumber": 12434934,
+  "likes": 6563,
+  "comments": 831,
+  "author": {
+    "name": "Sara Jameson",
+    "followersNumber": 12353,
+    "isFollowed": false,
+    "avatar": "i will just hardcode this :)"
+  },
+  "uploadDate": "TODO date",
+  "relatedMovies": [
+    {
+      "id": "1",
+      "name": "The Lord of the Rings - Best Scene of the movie (HD)",
+      "time": "2:41",
+      "playedTimes": 8204301
+    }, {
+      "id": "2",
+      "name": "LOTR: The Two Towers - The Battle of the Hornburg",
+      "time": "4:38",
+      "playedTimes": 2857112
+    }, {
+      "id": "3",
+      "name": "Lord of The Rings - Battle of Helms Deep Opening",
+      "time": "4:38",
+      "playedTimes": 3642730
+    }
+  ]
+}

@@ -1,9 +1,13 @@
-import React from 'react';
+import { Movie } from '../../types/movie';
 import './MovieContainer.scss';
 
-function MovieContainer() {
+interface Props {
+  movie: Movie
+}
+
+function MovieContainer(props: Props) {
   return (
-    <div className="m-container">Movie contaienr</div>
+    <div className="m-container">{props.movie.name}</div>
   );
 }
 
