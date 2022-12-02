@@ -7,7 +7,7 @@
   box-sizing: border-box;
 
   &:not(:last-child) {
-    border-bottom: solid 1px lightgrey;
+    border-bottom: solid 1px rgb(235, 235, 235);
   }
 
   * {
