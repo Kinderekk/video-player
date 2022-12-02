@@ -14,10 +14,10 @@ export type RelatedMovie = {
 
 export type Movie = {
   name: string;
-  descrition: string;
+  description: string;
   playedTimes: number;
   likes: number;
-  comments: number;
+  numberOfComments: number;
   author: Author;
   uploadDate: string;
   relatedMovies: RelatedMovie[]

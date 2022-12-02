@@ -2,6 +2,7 @@ import { RelatedMovie } from '../../types/movie';
 import convertViewsNumber from '../../utility/convertViews';
 import viewsIcon from '../../assets/views-icon.png';
 import './MovieThumbnail.scss';
+import NumbersView from '../NumbersView/NumbersView';
 
 interface Props {
   movie: RelatedMovie;
@@ -16,7 +17,7 @@ function MovieThumbnail(props: Props) {
         </div>
       </div>
       <div className="name">{props.movie.name}</div>
-      <div className="number"><img src={viewsIcon} alt={props.movie.name} />{convertViewsNumber(props.movie.playedTimes)}</div>
+      <NumbersView icon={viewsIcon} number={convertViewsNumber(props.movie.playedTimes)} iconWidth="7" iconHeight="12" />
     </div>
   );
 }

@@ -12,7 +12,6 @@
 
   * {
     display: flex;
-    width: 100%;
     align-items: center;
   }
 
@@ -40,16 +39,5 @@
   .name {
     height: 20%;
     font-weight: bold;
-  }
-
-  .number {
-    height: 10%;
-    color: lightgray;
-
-    img {
-      width: 7px;
-      height: 13px;
-      margin-right: 10px;
-    }
   }
 }

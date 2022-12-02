@@ -1,9 +1,10 @@
 {
   "name": "Lord of the Rings: The Fellowship of the Ring (official trailer)",
   "description": "The lord of the Ring is an epic high-fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
-  "playedNumber": 12434934,
+  "playedTimes": 12434934,
   "likes": 6563,
-  "comments": 831,
+  "numberOfComments": 831,
+  "time": "3:51",
   "author": {
     "name": "Sara Jameson",
     "followersNumber": 12353,
