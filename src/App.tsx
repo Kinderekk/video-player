@@ -1,4 +1,3 @@
-import React from 'react';
 import WatchPage from './pages/watch/WatchPage'; 
 import './App.scss';
 
