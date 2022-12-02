@@ -4,7 +4,9 @@ import NumbersView from '../NumbersView/NumbersView';
 import viewsIcon from '../../assets/views-icon.png';
 import heartIcon from '../../assets/heart-icon.png';
 import commentIcon from '../../assets/comment-icon.png';
+import Moment from 'moment';
 import './MovieContainer.scss';
+import UserInformations from '../UserInformations/UserInformations';
 
 interface Props {
   movie: Movie
@@ -13,9 +15,7 @@ interface Props {
 function MovieContainer(props: Props) {
   return (
     <div className="m-container">
-      <div className="m-display">
-        display
-      </div>
+      <div className="m-display"></div>
       <div className="m-informations-container">
         <div className="m-name">
           {props.movie.name}
@@ -37,10 +37,15 @@ function MovieContainer(props: Props) {
       </div>
       <div className="m-user-informations">
         <div className="m-user">
-          user
+          <UserInformations author={props.movie.author} />
         </div>
         <div className="m-uploaded">
-          uploaded
+          <div className="m-uploaded-title">
+            Uploaded:
+          </div>
+          <div className="m-uploaded-date">
+            {Moment(props.movie.uploadDate).format('D MMMM, YYYY')}
+          </div>
         </div>
       </div>
     </div>
