@@ -12,6 +12,100 @@
     background-color: rgb(92, 99, 110);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    position: relative;
+
+    .heart-icon {
+      position: absolute;
+      top: 40px;
+      right: 30px;
+    }
+
+    .share-icon {
+      position: absolute;
+      top: 80px;
+      right: 30px;
+    }
+
+    .bottom-features {
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      bottom: 0;
+      left: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+
+      .play-button {
+        width: 8%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .play-button-background {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: rgb(44, 44, 44);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .playtime {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .time {
+          width: 15%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          padding-left: 5px;
+        }
+      }
+
+      .sound {
+        width: 12%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .sound-icon {
+          margin-top: 4px;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+
+      .quality {
+        width: 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+
+      .fullsize-icon {
+        width: 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3px;
+      }
+    }
   }
 
   .m-informations-container {

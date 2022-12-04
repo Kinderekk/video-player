@@ -17,6 +17,7 @@ export type Movie = {
   description: string;
   playedTimes: number;
   likes: number;
+  time: string;
   numberOfComments: number;
   author: Author;
   uploadDate: string;
